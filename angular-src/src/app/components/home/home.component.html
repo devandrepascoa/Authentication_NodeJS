@@ -1,0 +1,36 @@
+<div class="jumbotron bg-white">
+    <h1 class="display-4">Authentication Example</h1>
+    <hr class="my-4">
+    <p>To proceed select one of the below buttons!</p>
+    <div class="row justify-content-md">
+        <div class="col-md-0 px-3">
+            <p [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="lead">
+                <a class="btn btn-primary btn-lg" [routerLink]="['/register']" role="button">Register</a>
+            </p>
+        </div>
+        <div class="col-md-0 px-3">
+            <p [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="lead">
+                <a class="btn btn-secondary btn-lg" [routerLink]="['/login']" role="button">Login</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h3>Express</h3>
+        <p>Express.js server as the backend, fast and reliable performance</p>
+    </div>
+    <div class="col-md-3">
+        <h3>Angular</h3>
+        <p>Angular frontend, based on Typescript, reliable and provides fast development </p>
+    </div>
+    <div class="col-md-3">
+        <h3>JWT</h3>
+        <p>Json web tokens for authentication</p>
+    </div>
+    <div class="col-md-3">
+        <h3>MongoDB</h3>
+        <p>Document based database, for storing the userData</p>
+    </div>
+</div>

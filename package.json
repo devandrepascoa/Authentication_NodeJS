@@ -1,0 +1,22 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "cors": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "path": "*",
+    "bcryptjs": "*",
+    "jsonwebtoken": "*"
+  },
+  "author": "André Páscoa",
+  "license": "ISC"
+}
